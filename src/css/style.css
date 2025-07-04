@@ -1,0 +1,89 @@
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+header nav ul li button{
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+}
+.home-title{
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 20px;
+}
+.home-description{
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
+.menu-title{
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.menu-list li{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.menu-list li:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu-item p{
+    font-size: 1.2em;
+    color: #333;
+}
+img{
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.footer ul li{
+    font-size: 1.2em;
+    color: #666;
+}
+.info{
+    text-align: center;
+    margin: 0 auto;
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    width: 80%;
+    
+}
