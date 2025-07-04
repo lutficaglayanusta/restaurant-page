@@ -1,11 +1,11 @@
 const content = document.getElementById("content")
 
-const hamburgerImage = './img/hamburger.jpeg';
-const köfteImage = './img/köfte.jpeg';
-const saladImage = './img/salad.jpeg';
-const pizzaImage = './img/pizza.jpeg';
-const tatliImage = './img/tatli.jpeg';
-const adanaImage = './img/adana.jpeg';
+const hamburgerImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/hamburger.jpeg';
+const köfteImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/k%C3%B6fte.jpeg';
+const saladImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/salad.jpeg';
+const pizzaImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/pizza.jpeg';
+const tatliImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/tatli.jpeg';
+const adanaImage = 'https://lutficaglayanusta.github.io/restaurant-page/img/adana.jpeg';
 
 const menuPage = () => {
     const ul = document.createElement('ul');
