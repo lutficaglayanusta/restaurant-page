@@ -7,6 +7,8 @@ import homePage from './js/home.js';
 import menuPage from './js/menu.js';
 import aboutPage from './js/about.js'
 
+homePage();
+
 homeButton.addEventListener('click', () => {
   content.innerHTML = '';
   homePage();
